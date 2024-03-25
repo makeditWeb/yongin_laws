@@ -176,13 +176,13 @@ header .logo p{
     text-decoration: none;
 }
 
-.nav_item ul li a:hover,
+.nav_item ul li a,
 .nav_item ul li a.active {
     color: var(--color-blue);
 	position: relative;;
 }
 
-.nav_item ul li a:hover::after,
+.nav_item ul li a,
 .nav_item ul li a.active::after{
     position: absolute;
     bottom: -6px;
@@ -499,7 +499,7 @@ select {
 }
 
 .dashboard_content_list span{
-    font-size: 11px;
+    font-size: 8px;
     font-weight: 400;
     color: #043359;
     margin-top: 5px;

@@ -21,7 +21,7 @@
             <nav class="nav_item">
                 <ul>
                     <li>
-                        <a class="active" href="./index.html">메인</a>
+                        <a href="./index.html">메인</a>
                     </li>
                     <li>
                         <a href="./ordinance_rules.html">현행자치법규</a>
@@ -45,7 +45,6 @@
                         <a href="javascript:void(0)">전국 자치법규</a>
                     </li>
                 </ul>
-                <span class='indicator'></span>
             </nav>
         </div>
         
@@ -366,15 +365,23 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
-    $(document).ready(function(){
-        $('nav_item ul li a').click(function(){
-            $('li a').removeClass("active");
-            $(this).addClass("active");
+        document.addEventListener("DOMContentLoaded", function() {
+            // 현재 페이지의 URL을 가져옵니다.
+            var currentPageUrl = window.location.href;
+            // 모든 메뉴 항목에 대한 참조를 가져옵니다.
+            var menuItems = document.querySelectorAll('.nav_item a');
+            // 각 메뉴 항목에 대해 반복합니다.
+            menuItems.forEach(function(item) {
+                // 만약 메뉴 항목의 href 속성이 현재 페이지 URL을 포함한다면,
+                if(currentPageUrl.includes(item.getAttribute('href'))) {
+                    // 해당 메뉴 항목에 'active' 클래스를 추가합니다.
+                    item.classList.add('active');
+                }
+            });
         });
-    });
     </script>
 
-
+    
     <script src="./js/main.js"></script>
 </body>
 </html>

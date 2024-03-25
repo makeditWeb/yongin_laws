@@ -1,3 +1,8 @@
+// menu
+
+$(document).on('click', '.nav_item ul li', function(){
+  $(this).addClass('active').siblings().removeClass('active')
+})
 
 // main 바로가기 슬라이드
 

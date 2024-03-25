@@ -1,3 +1,13 @@
+// menu
+
+$(document).ready(function(){
+    $('.nav_item ul li a').click(function(){
+      $('.nav_item li a').removeClass("active");
+      $(this).addClass("active");
+  });
+  });
+
+
 
 // main 바로가기 슬라이드
 

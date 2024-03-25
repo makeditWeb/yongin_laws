@@ -21,7 +21,7 @@
             <nav class="nav_item">
                 <ul>
                     <li>
-                        <a class="active" href="./index.html">메인</a>
+                        <a href="./index.html">메인</a>
                     </li>
                     <li>
                         <a href="./ordinance_rules.html">현행자치법규</a>
@@ -366,12 +366,13 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script>
-    $(document).ready(function(){
-        $('nav_item ul li a').click(function(){
-            $('li a').removeClass("active");
-            $(this).addClass("active");
+        $(document).ready(function () {
+        
+        $(".one").click(function (){
+            $(this).addClass("active").siblings().removeClass("active");
         });
-    });
+        });
+
     </script>
 
 
