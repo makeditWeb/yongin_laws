@@ -131,7 +131,7 @@ button{
 .header_wrapp{
     max-width: 1000px;
     margin: 0 auto;
-    padding: 35px 0 60px;
+    padding: 35px 0 65px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,7 +213,7 @@ header .logo p{
 }
 
 .search_wrap{
-    padding: 35px 20px 35px 35px;
+    padding: 30px 20px 20px 35px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -404,7 +404,6 @@ select {
     padding: 0 5px;
     letter-spacing: -0.08em;
     color: #191d6b;
-    box-sizing: border-box;
 }
 
 .left_dashboard .dash_board_body ul li.board_title{
@@ -611,7 +610,7 @@ select {
     font-size: 11px;
     font-family: 'KoPDotum';
     font-weight: 700;
-    color: #245c9e;
+    color: var(--color-blue);
     margin-right: 10px;
 }
 
@@ -658,7 +657,7 @@ padding: 0 14px;
 
 footer{
     background: #f4f4f4;
-    height: 100px;
+    height: 105px;
 }
 
 .footer_wrapp{
