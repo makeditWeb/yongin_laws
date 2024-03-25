@@ -1,0 +1,168 @@
+:root{
+
+}
+
+/* font */
+
+/* KoPubWorld-Batang */
+@font-face {
+    font-family: 'KoPBatang';
+    font-weight: 300;
+    src: url('../fonts/KoPubWorld-Batang-Light.otf') format(otf),
+        url('../fonts/KoPubWorld-Batang-Light.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'KoPBatang';
+    font-weight: 500;
+    src: url('../fonts/KoPubWorld-Batang-Medium.otf') format(otf),
+        url('../fonts/KoPubWorld-Batang-Medium.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'KoPBatang';
+    font-weight: 700;
+    src: url('../fonts/KoPubWorld-Batang-Bold.otf') format(otf),
+        url('../fonts/KoPubWorld-Batang-Bold.woff2') format(woff2);
+}
+
+/* KoPubWorld-Dotum  */
+
+@font-face {
+    font-family: 'KoPDotum';
+    font-weight: 300;
+    src: url('../fonts/KoPubWorld-Dotum-Light.otf') format(otf),
+        url('../fonts/KoPubWorld-Dotum-Light.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'KoPBatang';
+    font-weight: 500;
+    src: url('../fonts/KoPubWorld-Dotum-Medium.otf') format(otf),
+        url('../fonts/KoPubWorld-Dotum-Medium.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'KoPBatang';
+    font-weight: 700;
+    src: url('../fonts/KoPubWorld-Dotum-Bold.otf') format(otf),
+        url('../fonts/KoPubWorld-Dotum-Bold.woff2') format(woff2);
+}
+
+
+/* TheJamsil */
+
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight:100;
+    src: url('../fonts/TheJamsil-Thin.otf') format(otf),
+        url('../fonts/TheJamsil-Thin.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight: 300;
+    src: url('../fonts/TheJamsil-Light.otf') format(otf),
+        url('../fonts/TheJamsil-Light.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight: 400;
+    src: url('../fonts/TheJamsil-Regular.otf') format(otf),
+        url('../fonts/TheJamsil-Regular.woff2') format(woff2);
+}
+
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight: 500;
+    src: url('../fonts/TheJamsil-Medium.otf') format(otf),
+        url('../fonts/TheJamsil-Medium.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight: 700;
+    src: url('../fonts/TheJamsil-Bold.otf') format(otf),
+        url('../fonts/TheJamsil-Bold.woff2') format(woff2);
+}
+
+@font-face {
+    font-family: 'TheJamsil';
+    font-weight: 800;
+    src: url('../fonts/TheJamsil-ExtraBold.otf') format(otf),
+        url('../fonts/TheJamsil-ExtraBold.woff2') format(woff2);
+}
+
+
+/* Jalna */
+
+@font-face {
+    font-family: 'Jalnan';
+    src: url('../fonts/JalnanOTF00.otf') format(otf),
+        url('../fonts/JalnanOTF00.woff2') format(woff2);
+}
+
+/*  NPSfont */
+
+@font-face {
+    font-family: 'NPSfont';
+    src: url('../fonts/NPSfontBold.otf') format(otf),
+        url('../fonts/NPSfontBold.woff2') format(woff2);
+}
+
+
+
+
+/* main */
+
+
+/* header */
+.header_wrapp{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+header .logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+header .logo img{
+    width: 75px;
+    height: auto;
+}
+
+header .logo p{
+    font-family: 'TheJamsil',sans-serif;
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.nav_item ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_item{
+    width: 70%;
+}
+
+.nav_item li{
+    font-family: 'TheJamsil',sans-serif;
+
+}
+
+.nav_item li a{
+    font-size: 12px;
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+}
